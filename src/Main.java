@@ -1,3 +1,5 @@
+import java.awt.color.ICC_ColorSpace;
+
 public class Main {
     public static void main(String[] args) {
         // Aula introdutiva de Orientação á objetos
@@ -34,5 +36,12 @@ public class Main {
         cao.comer();
 
         rainha.comer();
+
+        int numero =(int) Math.ceil(Math.random() * 60);
+
+        Produto petisco = new Produto();
+        Produto racao = new Produto(1);
+        Produto remedio = new Produto (2,"Vermifugo");
+
     }
 }
